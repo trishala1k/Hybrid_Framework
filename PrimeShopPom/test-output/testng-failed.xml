@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.extentReportListener.ExtentReportListener"/>
-  </listeners>
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.men.test.MenCatTest">
         <methods>
-          <include name="validateMencategory"/>
-          <include name="validateReview"/>
-          <include name="validateTopCategory"/>
           <include name="setup"/>
-          <include name="validateListOfDuffleBags"/>
-          <include name="validateSizeChart"/>
-          <include name="validateBankName"/>
           <include name="validateElementList"/>
-          <include name="validatePaymentButtons"/>
-          <include name="verifyremoveProduct"/>
-          <include name="verifyfillupAddressUsingExcel"/>
-          <include name="validatePageTitle"/>
         </methods>
       </class> <!-- com.men.test.MenCatTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
