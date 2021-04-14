@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="10" total="11" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5305" started-at="2021-04-11T03:34:03Z" finished-at="2021-04-11T03:34:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5305" started-at="2021-04-11T03:34:03Z" finished-at="2021-04-11T03:34:08Z">
+      <class name="com.men.test.MenCatTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.men.test.MenCatTest@2b9627bc]" name="setup" is-config="true" duration-ms="24054" started-at="2021-04-11T09:03:39Z" finished-at="2021-04-11T09:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateElementList()[pri:1, instance:com.men.test.MenCatTest@2b9627bc]" name="validateElementList" duration-ms="4950" started-at="2021-04-11T09:04:03Z" finished-at="2021-04-11T09:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateElementList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.men.test.MenCatTest@2b9627bc]" name="tearDown" is-config="true" duration-ms="1165" started-at="2021-04-11T09:04:09Z" finished-at="2021-04-11T09:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.men.test.MenCatTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
